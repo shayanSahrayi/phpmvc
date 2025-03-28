@@ -1,0 +1,32 @@
+{
+    "name": "shayan/seven_box",
+    "description": "new version of seven box website",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\Controller\\": "app/controller",
+            "App\\Services\\": "app/services",
+            "App\\Core\\": "app/core",
+            "App\\Model\\": "app/model",
+            "App\\Middleware\\":"app/middleware",
+            "App\\Cron\\":"app/cron",
+            "index\\": "index"
+        },
+        "files": [
+            "utilites/helpers/string.php",
+            "utilites/helpers/helper.php",
+            "utilites/helpers/view.php"
+            
+        ]
+    },
+ 
+    "authors": [
+        {
+            "name": "shayan sahraei",
+            "email": "shayan.sh1996@gmial.com"
+        }
+    ],
+    "require": {
+        "morilog/jalali": "3.*"
+    }
+}
